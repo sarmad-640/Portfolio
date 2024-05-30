@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal Portfolio Website" />
+  <title> Personal Portfolio | Sarmad</title>
+
+  <!-- box icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+  <!-- header design -->
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="#certificates">Certificates</a>
+    </nav>
+  </header>
+
+
+<div class="iner-body">
+  <!-- home section design -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, I am</h3>
+      <h1>Muhammad Sarmad</h1>
+      <h3>And I'm a <span class="multiple-text"></span></h3>
+      <p class="m-d">Just the person you were looking for.</p>
+      <!-- <div class="social-media">
+        <a href="https://www.facebook.com/profile.php?id=100092357720847" target="_blank"><i class='bx bxl-facebook'></i></a>
+        <a href="https://twitter.com/MSIB640" target="_blank"><i class='bx bxl-twitter' ></i></a>
+        <a href="https://www.instagram.com/msib640/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+        <a href="https://www.linkedin.com/in/sarmad-iqbal-482890282/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+      </div> -->
+      <!-- <a href="https://drive.google.com/file/d/14y8xW8j3zFF4SnCX7_znqD-zckn0w6cR/view?usp=sharing" download="Resume" class="btn" target="_blank">Download Resume</a> -->
+      <a href="web resume.pdf" download="Resume" class="btn" target="_blank">Download Resume</a>
+    </div>
+
+    <div class="home-img">
+      <img src="images/home.gif" alt="">
+    </div>
+  </section>
+
+  <!-- <section class="ico"> -->
+  <div class="icos">
+    <div class="ico-slide"> 
+      <img src="images/ico/html.png" alt="">
+      <img src="images/ico/css.webp" alt="">
+      <img src="images/ico/js.png" alt="">
+      <img src="images/ico/wp.png" alt="">
+      <img src="images/ico/Bootstrap.png" alt="">
+      <img src="images/ico/seo.png" alt="">
+      <img src="images/ico/framer.png" alt="">
+      <img src="images/ico/tailwind css.png" alt="">
+      <img src="images/ico/wix-com.png" alt="">
+    </div>
+
+    <div class="ico-slide">
+      <img src="images/ico/html.png" alt="">
+      <img src="images/ico/css.webp" alt="">
+      <img src="images/ico/js.png" alt="">
+      <img src="images/ico/wp.png" alt="">
+      <img src="images/ico/Bootstrap.png" alt="">
+      <img src="images/ico/seo.png" alt="">
+      <img src="images/ico/framer.png" alt="">
+      <img src="images/ico/tailwind css.png" alt="">
+      <img src="images/ico/wix-com.png" alt="">
+    </div>
+  </div>
+
+  <!-- </section> -->
+
+  <!-- about section design -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="images/about.gif" alt="">
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <!-- <h3>Frontend Developer</h3> -->
+      <p>Hi I am Sarmad. My interests are developing websites and webpages, with years of experience in this field and
+        with the help of several CMS(Content Management System) and HTML, CSS, JS and some other tools I can bring to
+        life any website design I can think of.</p>
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- services section design -->
+  <section class="services" id="services">
+    <h2 class="heading">Marked <span>Services</span></h2>
+
+    <div class="services-container">
+      <div class="services-box">
+        <i class='bx bx-code-alt'></i>
+        <h3>Front End Developer</h3>
+        <p>As an experienced website developer I can create awesome websites using my knowledge of programming languages
+          such as HTML, CSS, JS and using its libraries.</p>
+        <a href="#contact" class="btn">Get in touch</a>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bx-edit'></i>
+        <h3>Wordpress Deveoloper</h3>
+        <p>Having extensive knowledge about wordpress plugins, themes, etc. I can create almost any design. My webpages
+          are highly optimised reducing loadtime and improving user experience.</p>
+        <a href="#contact" class="btn">Get in touch</a>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bx-copy-alt'></i>
+        <h3>Other CMS developer</h3>
+        <p>I have also developed sites in other CMS like Framer, Wix, Webflow and I am open to learn and work with other
+          types of CMS too.</p>
+        <a href="#contact" class="btn">Get in touch</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- projects section design -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide"><img src="images/portfolio1.svg" alt="">
+          <div class="portfolio-layer">
+            <h4>Fast Food Restaurant</h4>
+            <p>Visit</p>
+            <a href="https://kingofpizza.is-best.net/" target="_blank"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+        <div class="swiper-slide"><img src="images/portfolio3.svg" alt="">
+          <div class="portfolio-layer">
+            <h4>Travel site</h4>
+            <p>Visit</p>
+            <a href="https://sarmadproject.framer.website/" target="_blank"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+        <div class="swiper-slide"><img src="images/portfolio5.svg" alt="">
+          <div class="portfolio-layer">
+            <h4>News Website</h4>
+            <p>Visit</p>
+            <a href="https://someother.great-site.net/" target="_blank"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+        <div class="swiper-slide"><img src="images/portfolio6.svg" alt="">
+          <div class="portfolio-layer">
+            <h4>Event Booking Site</h4>
+            <p>Visit</p>
+            <a href="https://sarmadbutt6401.wixsite.com/youreventshub"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+        <div class="swiper-slide"><img src="images/portfolio7.svg" alt="">
+          <div class="portfolio-layer">
+            <h4>Real Estate Consulting site</h4>
+            <p>Visit</p>
+            <a href="https://hoandcoconsulting.mydurable.com/"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+        <div class="swiper-slide"><img src="images/portfolio4.svg" alt="">
+          <div class="portfolio-layer">
+            <h4>College website</h4>
+            <p>Visit</p>
+            <a href="https://10web-site.ai/42/immortal-flea/"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+        <!-- <div class="swiper-slide"><img src="images/portfolio2.svg" alt="">
+          <div class="portfolio-layer">
+            <h4>Dragon Ball Z site</h4>
+            <p>Visit</p>
+            <a href="https://sarmadproject.framer.website/2" target="_blank"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div> -->
+
+        <div class="swiper-slide"><img src="images/portfolio9.svg" alt="">
+          <div class="portfolio-layer">
+            <h4>Portfolio Web Design</h4>
+            <p>Visit</p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+  
+        <div class="swiper-slide"><img src="images/portfolio8.svg" alt="">
+          <div class="portfolio-layer">
+            <h4>Blog Website</h4>
+            <p>Visit</p>
+            <a href="https://wisespendr.com/" target="_blank"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+      </div>
+
+    
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+    </div>
+    <!-- div class="portfolio-container">
+      <div class="portfolio-box">
+        <img id="project1" src="images\portfolio1.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Portfolio Web Design</h4>
+          <p>Visit</p>
+          <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="images\portfolio2.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Travel site</h4>
+          <p>Visit</p>
+          <a href="https://sarmadproject.framer.website/" target="_blank"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="images\portfolio3.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Fast Food Restaurant</h4>
+          <p>Visit</p>
+          <a href="https://kingofpizza.is-best.net/" target="_blank"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="images\portfolio4.png" alt="">
+        <div class="portfolio-layer">
+          <h4>News Website</h4>
+          <p>Visit</p>
+          <a href="https://someother.great-site.net/" target="_blank"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="images\portfolio5.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Blog Website</h4>
+          <p>Visit</p>
+          <a href="https://wisespendr.com/" target="_blank"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="images\portfolio6.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Dragon Ball Z site</h4>
+          <p>Visit</p>
+          <a href="https://sarmadproject.framer.website/2" target="_blank"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+
+    </div> -->
+  </section>
+
+  <!-- contact section design -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+
+    <div class="services-container Contact-container">
+      <div class="services-box Contact-box">
+        <i class='bx bx-envelope'></i>
+        <h3>Mail</h3>
+        <p>sarmadbutt640@gmail.com</p>
+        <!-- <a href = "mailto: abc@example.com">Send Email</a> -->
+
+        <a href="https://mail.google.com/mail/" class="btn">Mail Now!</a>
+      </div>
+
+      <div class="services-box Contact-box">
+        <i class='bx bxl-whatsapp'></i>
+        <h3>Phone Number</h3>
+        <p>+923338149586</p>
+        <a href="https://web.whatsapp.com/" class="btn">Text Now!</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- certificates -->
+  <section class="certificates" id="certificates">
+    <h2 class="heading">My <span>Certifications</span></h2>
+
+    <div class="portfolio-container certificate-container">
+
+      <div class="portfolio-box">
+        <img src="images\certificates\HTML CSS certificate.png" alt="">
+      </div>
+
+      <div class="portfolio-box ">
+        <img src="images\certificates\web design certificate.png" alt="">
+      </div>
+
+      <div class="portfolio-box fit">
+        <img src="images\certificates\wordpress certificate.jpg" alt="">
+      </div>
+
+
+
+
+      <!-- <div class="portfolio-box">
+        <img src="images/certificates/Ms Office certificate.png" alt="">
+      </div> -->
+
+      <!-- <div class="portfolio-box fit">
+        <img src="images\certificates\writing certificate.png" alt="">
+      </div>
+
+      <div class="portfolio-box fit">
+        <img src="images\certificates\computer certificate.png" alt="">
+      </div> -->
+
+
+    </div>
+  </section>
+</div>
+
+  <!-- footer design -->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2023 by Sarmad | All Rights Reserved.</p>
+    </div>
+
+    <div class="footer-iconTop">
+      <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+
+  <!-- scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- typed js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- custom js -->
+  <script src="js/script.js"></script>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var x = 768,
+      w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    if (w < x) {
+      console.log(w, 'true')
+      // do stuff here when screen is smaller
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    } else {
+      console.log(w, 'false')
+      // do stuff here when screen is larger
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 2,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    }
+
+
+
+
+
+
+  </script>
+
+
+
+
+</body>
+
+</html>
