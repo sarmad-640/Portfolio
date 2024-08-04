@@ -32,6 +32,10 @@ body {
 
 
 }
+
+.fa-brands{
+    font-size: 13vh;
+}
 /* .iner-body{
     border-left: 2px solid #00eeff;
     border-right: 2px solid #00eeff;
@@ -160,6 +164,7 @@ span{
     box-shadow: 0 0 1rem var(--main-color);
 }
 
+
 .btn {
     display: inline-block;
     padding: 1rem 2.8rem;
@@ -212,7 +217,7 @@ transform: translateX(-100%);
 }
 
 .ico-slide img{
-    height: 18vh;
+    height: 13vh;
     margin: 0 25px;
 }
 
